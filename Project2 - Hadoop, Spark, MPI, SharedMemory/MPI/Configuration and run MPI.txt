@@ -1,0 +1,54 @@
+#MPI 
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python-dev
+sudo apt-get install python-setuptools
+sudo apt-get install build-essential
+sudo easy_install StarCluster
+
+#Configuring StartCluster
+starcluster help
+2
+
+vi ~/.starcluster/config
+
+#enter following details
+AWS_ACCESS_KEY_ID = # Your Access Key ID here
+AWS_SECRET_ACCESS_KEY = # Your Secret Access Key here
+AWS_USER_ID = # Your 12-digit AWS Account ID here (no hyphens)
+
+starcluster createkey mykey -o ~/.ssh/mykey.rsa
+
+vi ~/.starcluster/config
+
+#change CLUSTER_SIZE and  NODE_INSTANCE_TYPE
+
+#Enable mpich2 plugin for Starcluster (http://star.mit.edu/cluster/docs/0.93.3/plugins/mpich2.html)
+
+#start cluster
+starcluster start mpicluster
+
+#Connecting master node
+starcluster sshmaster mycluster
+
+su - sgeadmin
+
+emacs ~/hosts
+#add host and node details like following
+master
+node001
+
+
+vi mpi.c
+
+#Copy mpi code in mpi.c file
+
+#compile mpi code
+mpicc mpi.c -o mpi
+
+#run mpi code
+mpirun.mpich2 -np 10 -f hosts ./mpi 
+
+
+

@@ -1,0 +1,27 @@
+Share Memory Running Steps:
+
+#Connect to amazon instance
+ssh -i "i3large.pem" ubuntu@ec2-52-91-6-142.compute-1.amazonaws.com
+
+#Steps to install java
+sudo apt-add-repository ppa:webupd8team/java -y
+sudo apt-get install oracle-java8-installer -y
+sudo apt-get update
+
+#step to install gensort
+wget www.ordinal.com/try.cgi/gensort-linux-1.5.tar.gz
+tar -xzvf gensort-linux-1.5.tar.gz
+cd 64
+./gensort -a 1280000000 test
+
+#copy test file from folder 64 to home
+cd
+cp 64/test ~/.
+
+#transfer file to AWS EC2 fromlocal machine
+ssh -i "i3large.pem" sharememory.jar ubuntu@ec2-52-91-6-142.compute-1.amazonaws.com:~/.
+
+#make sure that generated file name is test and its location is same as sharememory.jar
+
+#Now run jar file
+java -jar sharememory.jar
