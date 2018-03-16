@@ -1,0 +1,10 @@
+To use cloud computing instead of building its own infrastructure. 
+There is concensus that a cloud computing software stack at the layer of IaaS will be used, 
+but its not clear whether the computing resources should be rented from a public cloud on-demand, 
+or whether a private cloud should be purchased. You are tasked to find the cost breakdown of a private cloud, 
+and compare that to what Amazon would charge.
+
+Cost of different configurations for 3 different set of requirements.
+Configuration 1: Hadoop/Spark Cluster
+Configuration 2: Support 1 million virtual machines
+Configuration 3: Support deep learning with 1 exaflop of mixed precision performance
