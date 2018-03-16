@@ -1,0 +1,32 @@
+--------------------------------------------------
+Port 1944 Ip: 0.0.0.0 Threads 1 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 21803.36785190067
+Latency for 64K packets (milliSeconds): 0.36691579274999997
+--------------------------------------------------
+Port 1945 Ip: 0.0.0.0 Threads 2 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 22463.762707546983
+Latency for 64K packets (milliSeconds): 0.356129118
+--------------------------------------------------
+Port 1946 Ip: 0.0.0.0 Threads 4 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 17915.795988957903
+Latency for 64K packets (milliSeconds): 0.44653332762500003
+--------------------------------------------------
+Port 1947 Ip: 0.0.0.0 Threads 8 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 19983.779746758155
+Latency for 64K packets (milliSeconds): 0.40032466837499997
+--------------------------------------------------
+Port 1948 Ip: 0.0.0.0 Threads 1 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 22018.41736575623
+Latency for 64K packets (milliSeconds): 0.363332199
+--------------------------------------------------
+Port 1949 Ip: 0.0.0.0 Threads 2 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 21549.16746737649
+Latency for 64K packets (milliSeconds): 0.3712440405
+--------------------------------------------------
+Port 1950 Ip: 0.0.0.0 Threads 4 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 21517.718389656533
+Latency for 64K packets (milliSeconds): 0.37178662975
+--------------------------------------------------
+Port 1951 Ip: 0.0.0.0 Threads 8 Data(MB): 4000
+Throughput for 64K packets (Mbits/Sec): 21846.614046864284
+Latency for 64K packets (milliSeconds): 0.366189469125

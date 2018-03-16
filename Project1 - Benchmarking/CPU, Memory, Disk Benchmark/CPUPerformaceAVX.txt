@@ -1,0 +1,103 @@
+
+
+ ***************************************************** --- START -----  **************************************************** 
+
+Banchmarking process started (It takes several minutes) ... Using 1 threads.
+
+ ******************************************************************************************************************************************************* 
+
+Analysing using double precision FLOPS ... 
+ FLOP execution time:  5.86677 seconds
+
+ Floating point operations per second:  9696798172.39872 
+
+ Giga Floating point operations per second:  9.69680 
+
+Banchmarking using FLOPS process completed.
+
+ --------------------------------------------------------------------------------------------------------------------------- 
+
+Analysing using IOPS ... 
+
+ Integer operations per second:  9305204236.30392 
+
+ Giga Integer operations per second:  9.30520 
+
+Banchmarking using IOPS process completed.
+
+ ******************************************************************************************************************************************************* 
+
+Banchmarking process started (It takes several minutes) ... Using 2 threads.
+
+ ******************************************************************************************************************************************************* 
+
+Analysing using double precision FLOPS ... 
+ FLOP execution time:  3.12731 seconds
+
+ Floating point operations per second:  18190976549.02806 
+
+ Giga Floating point operations per second:  18.19098 
+
+Banchmarking using FLOPS process completed.
+
+ --------------------------------------------------------------------------------------------------------------------------- 
+
+Analysing using IOPS ... 
+
+ Integer operations per second:  14735315261.73536 
+
+ Giga Integer operations per second:  14.73532 
+
+Banchmarking using IOPS process completed.
+
+ ******************************************************************************************************************************************************* 
+
+Banchmarking process started (It takes several minutes) ... Using 4 threads.
+
+ ******************************************************************************************************************************************************* 
+
+Analysing using double precision FLOPS ... 
+ FLOP execution time:  0.77272 seconds
+
+ Floating point operations per second:  18405379529.69136 
+
+ Giga Floating point operations per second:  18.40538 
+
+Banchmarking using FLOPS process completed.
+
+ --------------------------------------------------------------------------------------------------------------------------- 
+
+Analysing using IOPS ... 
+
+ Integer operations per second:  15646673968.31427 
+
+ Giga Integer operations per second:  15.64667 
+
+Banchmarking using IOPS process completed.
+
+ ******************************************************************************************************************************************************* 
+
+Banchmarking process started (It takes several minutes) ... Using 8 threads.
+
+ ******************************************************************************************************************************************************* 
+
+Analysing using double precision FLOPS ... 
+ FLOP execution time:  0.04617 seconds
+
+ Floating point operations per second:  19250890178.76834 
+
+ Giga Floating point operations per second:  19.25089 
+
+Banchmarking using FLOPS process completed.
+
+ --------------------------------------------------------------------------------------------------------------------------- 
+
+Analysing using IOPS ... 
+
+ Integer operations per second:  17961984151.26402 
+
+ Giga Integer operations per second:  17.96198 
+
+Banchmarking using IOPS process completed.
+
+ ******************************************************************************************************************************************************* 
